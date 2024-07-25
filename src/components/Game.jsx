@@ -36,6 +36,7 @@ function Game() {
       ? setScore((prev) => prev + randomNumber)
       : setScore((prevScore) => Math.max(prevScore - 2, 0));
     setUserNumber(null);
+    setSelectedNumber(null);
   };
 
   return (
